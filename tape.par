@@ -9,14 +9,14 @@ SKYANNUL  30,40        # (APPHOT) (CSV) sky-annulus for background [pixel]
 SUBPIXEL  5            # (APPHOT) the division number for subpixel method
 EGAIN     1.0          # (APPHOT) the gain of CCD for error estimation
 PSCALE    0.387        # (APPHOT) pixel scale in stellar profile plot 0.3867,0.464
-STARPLOT  0            # (APPHOT) (BOOL) plotting the diagram for each star
+STARPLOT  1            # (APPHOT) (BOOL) plotting the diagram for each star
 LOGFILE   wobs.log     # (APPHOT) log file name for LC processing
 APERUSED  2            # (TIMESERIES) index of aperture(in PHOTAPER) for LC
 SHIFTPLOT 1            # (TIMESERIES) flag for plotting all shift-images
 OBSDATE   180326       # (TIMESERIES) observation date
 TARGETNAM HAT-P-12b    # (TIMESERIES) target name
 TARGETNUM 13           # (TIMESERIES) target star numbers in finding-chart
-COMPNUMS  10,17,21     # (TIMESERIES) (CSV) comparison star numbers
+COMPNUMS  5,10,17      # (TIMESERIES) (CSV) comparison star numbers
 CHKSIG    0.4          # (TIMESERIES) STD checking criteria for LC test
 CHKDELM   3            # (TIMESERIES) DEL_MAG checking criteria for LC test
 OBSLAT    34.5261362   # (for HJD) The latitude[deg] of the observatory 
